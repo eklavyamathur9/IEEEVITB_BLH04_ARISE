@@ -1,7 +1,7 @@
 #header{
     position: relative;
     top: 10px;
-    left: 400px;
+    left: 200px;
 }
 #hometext1{
     color: black;
@@ -45,6 +45,23 @@
 }
 #p5{
     top: 240px;
+}
+
+/* Footer  */
+#footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 500px;
+    bottom: 17px;
+}
+#footerbox{
+    position: fixed;
+    top: 660px;
+    width: 1500px;
+    height: 70px;
+    background-color: black;
 }
 
 

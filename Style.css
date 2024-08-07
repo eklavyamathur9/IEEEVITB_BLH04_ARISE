@@ -8,6 +8,10 @@
 body{
     height: 500px;
     background-color: whitesmoke;
+    background-image: url("WhatsApp Image 2024-08-07 at 11.00.48_8e3bec8d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #Feature{
     color: white;
@@ -81,6 +85,12 @@ body{
     height: 1000px;
     background-color: white;
     position: absolute;
+    border-radius: 20px;
     top: 120px;
     left: 220px;
+}
+#ig{
+    position: relative;
+    top: 70px;
+    left: 250px;
 }

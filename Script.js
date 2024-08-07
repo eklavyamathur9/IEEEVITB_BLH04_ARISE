@@ -10,6 +10,7 @@ let feature1=document.getElementById("fetid1");
 let feature2=document.getElementById("fetid2");
 let featureclass=document.querySelector("Featureclass");
 let box=document.getElementById("search-id");
+let ig=document.getElementById("ig");
 
 
 function aboutusdelete(){
@@ -40,6 +41,10 @@ aboutus.addEventListener("click",function(){
     abouttext3.textContent="At ConnectEase, we strive to empower individuals by removing the obstacles that prevent meaningful interactions. Whether you’re connecting with people across the globe or in your local community, our application is here to make your communication experience smooth and inclusive. Thank you for choosing ConnectEase as your trusted partner in overcoming communication barriers.";
     Featuredelete();
     culturedelete();
+    home.style.color="white";
+    feature.style.color="white";
+    aboutus.style.color="blue";
+    ig.style.visibility="hidden";
 });
 
 feature.addEventListener("click",function(){
@@ -54,6 +59,10 @@ feature.addEventListener("click",function(){
     feature2.textContent="Cross Culture Barrier";
     aboutusdelete();
     culturedelete();
+    home.style.color="white";
+    feature.style.color="blue";
+    aboutus.style.color="white";
+    ig.style.visibility="hidden";
 });
 
 // Sementic Barrier
@@ -93,13 +102,28 @@ feature2.addEventListener("click",function(){
     Featuredelete();
     aboutusdelete();
     headr.textContent="Japanese Culture";
+    headr.style.position="relative";
     headr.style.left="440px";
+    headr.style.top="10px";
+    par1.style.position="absolute";
+    par1.style.top="130px";
+    par2.style.position="absolute";
+    par2.style.top="190px";
+    par3.style.position="absolute";
+    par3.style.top="280px";
+    par4.style.position="absolute";
+    par4.style.top="400px";
+    par5.style.position="absolute";
+    par5.style.top="540px";
+    par6.style.position="absolute";
+    par6.style.top="620px";
     par1.textContent="Culture: Saving face is crucial in Japanese society. The Japanese believe that turning down someone’s request causes embarrassment and loss of face to the other person. If a request cannot be agreed to, they will say, “it is inconvenient” or “it is under consideration";
     par2.textContent=" There is great emphasis on politeness, personal responsibility, and working together for the universal rather than the individual good. Facts that might be unpleasant are expressed in a gentle and indirect fashion. Since the Japanese strive for harmony and work well in groups, they often rely on facial expressions, tone of voice, and posture to understand others.";
     par3.textContent="Business relationships and communication: The Japanese prefer to do business on the basis of personal relationships. One way to build and maintain relationships is with greetings and seasonal cards. In general, being introduced or recommended by someone who already has a good relationship with the company is extremely helpful as it helps them know how to place others in a hierarchy relative to themselves.";
     par4.textContent="Business meeting etiquette: Greetings in Japan are very formal and ritualized. While for eigners are expected to shake hands, the traditional form of greeting is the bow. How far someone bows depends upon their relationship to the other person as well as the situation. The deeper someone bows, the more respect they show.Since this is a group society, foreigners should be prepared for group meetings. The most senior Japanese person will be seated farthest from the door, with the rest of the people seated in descending order of rank; the most junior person is seated closest to the door.";
     par5.textContent=" The Japanese often remain silent for long periods of time. Others should be patient and try to determine if their Japanese colleagues have understood what was said. Some Japanese people close their eyes when they want to listen intently.";
     par6.textContent="The Japanese seldom grant concessions. They expect both parties to come to the table with their best offer. Business cards are exchanged frequently and with great ceremony. Business cards are given and received with two hands and a slight bow.";
+    ig.style.visibility="hidden";
 });
 
 // Home Page
@@ -120,10 +144,10 @@ function homedelete(){
 };
 
 home.addEventListener("click",function(){
-    headr.textContent="Welcome to ConnectEase";
+    headr.textContent="WELCOME TO CONNECTEASE!";
     headr.style.position="absolute";
     headr.style.top="10px";
-    headr.style.left="400px";
+    headr.style.left="300px";
     ht1.style.position="relative";
     ht1.style.top="100px";
     ht1.style.width="1100px";
@@ -137,5 +161,9 @@ home.addEventListener("click",function(){
     Featuredelete();
     culturedelete();
     aboutusdelete();
+    home.style.color="blue";
+    feature.style.color="white";
+    aboutus.style.color="white";
+    ig.style.visibility="hidden";
 });
 
