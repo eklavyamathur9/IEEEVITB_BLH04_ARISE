@@ -1,0 +1,82 @@
+.Featureclass{
+    display: inline;
+    width: 200px;
+    height: 200px;
+    border: 2px solid ;
+    border-color: white;  
+
+}
+#fetid1{
+    position:absolute;
+    top: 200px;
+    left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    align-content: center;
+    padding-left: 20px;
+}
+#fetid2{
+    position:absolute;
+    top: 200px;
+    left: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Sementic Barrier  */
+.search-container {
+    text-align: center;
+}
+.search-box {
+    margin-bottom: 10px;
+}
+.search-box input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.search-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-box button:hover {
+    background-color: #0056b3;
+}
+
+.japan{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    width: 1000px;
+    position: relative;
+    left: 50px;
+}
+#par1{
+    top: 130px;
+}
+#par2{
+    top: 160px;
+}
+#par3{
+    top: 190px;
+}
+#par4{
+    top: 220px;
+}
+#par5{
+    top: 250px;
+}
+#par6{
+    top: 280px;
+}
